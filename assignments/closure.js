@@ -2,6 +2,29 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 
+function acuraCars() {
+   console.log("I am the car company");
+   const message = "New cars coming soon";
+
+   //dealership owner
+   function owner() {
+     console.log(`Message recieved: ${message}`);
+
+   function salesTeam() {
+     console.log(`Message also recieved: ${message}`);
+   }
+    salesTeam(); 
+  }
+   owner();
+}
+acuraCars();
+
+
+
+
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
