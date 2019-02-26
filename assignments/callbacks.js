@@ -134,11 +134,22 @@ function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
   return cb(item, list);
+
+
+} 
+
+function contain(item, list) {
+  for(var i = 0; i<list.length;i++) {
+    if(item[i] === list) {
+      return true;
+    }else return false;
+  } 
+  
 }
 
- 
 
-
+  
+  console.log(contain("cat", items));
 
 
 
