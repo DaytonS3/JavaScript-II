@@ -140,7 +140,7 @@ function contains(item, list, cb) {
 
 function contain(item, list) {
   for(var i = 0; i<list.length;i++) {
-    if(item[i] === list) {
+    if(list.includes(item)) {
       return true;
     }else return false;
   } 
@@ -149,10 +149,18 @@ function contain(item, list) {
 
 
   
-  console.log(contain("cat", items));
+  console.log(contain("Gum", items));
 
 
 
+
+
+
+
+
+
+
+  
 
 
 
