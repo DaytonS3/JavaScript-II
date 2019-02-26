@@ -29,7 +29,9 @@ acuraCars();
 
 
 // ==== Challenge 2: Create a counter function ====
-const counter = () => {
+const counter = function add1(x) {
+  let c = x + 1;
+  return c;
   // Return a function that when invoked increments and returns a counter variable.
 };
 // Example usage: const newCounter = counter();
